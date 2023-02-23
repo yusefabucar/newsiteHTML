@@ -1,0 +1,57 @@
+html {
+  box-sizing: border-box;
+  text-align: center;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+article,
+header,
+section,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+body {
+  background: #0c0c0c none repeat scroll 0 0;
+  color: rgb(182, 182, 182);
+  font-size: 100%;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+a {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  outline: none;
+}
+a:hover,
+a:focus {
+  color: #373e18;
+}
+section {
+  float: left;
+  width: 100%;
+  padding-bottom: 3em;
+}
+h2 {
+  color: #1a0e0e;
+  font-size: 26px;
+  font-weight: 700;
+  margin: 0;
+  line-height: normal;
+  text-transform: uppercase;
+}
